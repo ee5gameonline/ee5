@@ -1,0 +1,38 @@
+*{ padding: 0; margin: 0;}
+body{font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;font-size:14px;color:#eee;background:#000;}
+img {border: none;}
+a { text-decoration: none; color: #eee; border: none; }
+li { list-style: none; }
+.clear:after { display: block; clear: both; content: '';}
+
+.digitalDeal-link li {background: #222; padding:10px 15px; margin-bottom: 1px;}
+.igitalDeal-til { height: 30px; line-height: 30px;}
+.igitalDeal-til i { display: inline-block; width: 10px; height: 10px; background: #e7cc19; margin-right: 10px;}
+.igitalDeal-infor { display: flex;}
+.igitalDeal-infor div { flex: 1; position: relative;}
+.igitalDeal-infor div p { line-height: 24px;}
+.igitalDeal-btn { color: #fff; background: #d4237a; padding: 5px 12px; border-radius: 5px; position: absolute; right: 0;margin-top: 7px; }
+.backgroundBlue {background: #1296db; }
+.textBlue { color: #1296db;}
+.textWhite { color: #fff;}
+.textGray { color: #777;}
+.textCenter { text-align: center;}
+.maginTB { margin: 20px 0;}
+.maginT10 { margin-top: 10px;}
+.maginB10 { margin-bottom: 10px;}
+.f12 { font-size: 12px;}
+.fl { float: left;}
+.fr { float: right;}
+
+.comDiv-wrap {}
+.comDiv {background: #222; padding:10px 15px; margin-bottom: 1px;}
+.okImg { width: 50px; height: 50px;}
+.orderpay-info p { margin-bottom: 5px;}
+#lease-pay {background: #1296db; }
+
+.lease-detail { margin: 0 10px; background: #fff;-moz-box-shadow:0 0 15px #ddd; -webkit-box-shadow:0 0 15px #ddd; box-shadow:0 0 15px #ddd; border-radius: 10px; padding: 0 10px;}
+.lease-detail-price {border-bottom: 1px solid #eee; padding: 20px; text-align: center;}
+.list-price3 { font-size: 34px; color: #1296db; display: block;}
+.list-price4 { font-size: 14px; color: #999; display: block;}
+.kuangjilist a,.kuangjilist p { display: block; padding:15px 0; text-align: center;border-bottom: 1px solid #000; margin: 0; }
+.kuangjilist a:last-child,.kuangjilist p:last-child {border-bottom:0;}

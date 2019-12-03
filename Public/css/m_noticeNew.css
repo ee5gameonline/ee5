@@ -1,0 +1,32 @@
+/*teleMsg*/
+.teleMsg{
+    padding:0.3rem;
+}
+.teleMsg_item,.teleMsg_itemTwo{
+    background: rgb(51, 51, 51);
+    -webkit-box-shadow: 0 0.186667rem 0.373333rem -0.266667rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.186667rem 0.373333rem -0.266667rem rgba(0, 0, 0, 0.5);
+    border-radius: 0.4rem 0 0.4rem 0.4rem;
+    padding: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+.teleMsg_itemTwo{
+    border-radius: 0 0.4rem 0.4rem 0.4rem;
+}
+.teleMsg_item p{
+    color:#fff;
+}
+.teleMsg_item p:first-child,.teleMsg_itemTwo p:first-child{
+    height: auto;
+    font-weight: 400;
+    color: #fff;
+}
+.teleMsg_item p:last-child,.teleMsg_itemTwo p:last-child{
+    height: auto;
+    margin-top: 0.1rem;
+    font-size:0.24rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: right;
+}
+

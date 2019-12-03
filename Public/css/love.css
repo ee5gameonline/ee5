@@ -1,0 +1,120 @@
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	background: #eb0e0e;
+	background-size: cover;
+}
+
+.hello {
+	font-size: 24px;
+	color: rgb(250, 210, 0);
+	text-align: left;
+	float: left;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+.hello img {
+	margin-left: -10px;
+	margin-top: 5px;
+}
+
+.top-right {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.love1,
+.love1_rebset {
+	width: 94%;
+	border: 2px solid rgb(250, 210, 0);
+}
+
+.love1_rebset1 {
+	position: absolute;
+	bottom: 14.3rem;
+	width: 94%;
+	border: 2px solid rgb(250, 210, 0);
+}
+
+.love2,
+.love4 {
+	margin-left: 18px;
+	margin-right: 18px;
+	width: 100%;
+}
+
+.love2 img {
+	border: 2px solid rgb(250, 210, 0);
+	width: 100%;
+	margin-left: -2px;
+}
+
+.love4 {
+	text-align: center;
+}
+
+.love4 a {
+	width: 50%;
+	float: left;
+}
+
+.love4 img {
+	width: 94%;
+	border: 2px solid rgb(250, 210, 0);
+}
+
+.love4 a:nth-child(3),
+.love4 a:nth-child(4) {
+	margin-top: 10px;
+}
+
+.bottom-left {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	transform: rotateY(180deg);
+	margin-left: -20px;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: rgb(250, 210, 0);
+	line-height: 1.5rem;
+	font-size: .9rem;
+}
+
+.bottom1 {
+	width: 90%;
+	color: rgb(250, 210, 0);
+	line-height: 1.5rem;
+	font-size: .9rem;
+	position: absolute;
+	bottom: 20px;
+}
+
+.bottom2 {
+	width: 90%;
+	color: rgb(250, 210, 0);
+	line-height: 1.5rem;
+	font-size: .9rem;
+	position: absolute;
+	bottom: 0px;
+}
+
+.bottom2 p {
+	font-size: 1rem;
+}
+
+.bottom2 p span {
+	font-size: 1.2rem;
+}
+
+#content12 {
+	background: url(../images/love6.jpg);
+	background-size: 100% 100%;
+}

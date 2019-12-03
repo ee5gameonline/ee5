@@ -1,0 +1,248 @@
+body{color:#000000;background: #fff;}
+.m_layout{padding-bottom:0; background: #fff}
+.header_left{left:0.28rem;right:0;}
+
+/*总收益*/
+.all_profit{
+	width:100%;
+	background: linear-gradient(#fcd789, #f9cb74);
+	/*-webkit-box-shadow: 0 0.186667rem 0.373333rem -0.266667rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.186667rem 0.373333rem -0.266667rem rgba(0, 0, 0, 0.5);*/
+}
+.all_profit p:first-child{
+	font-size: 0.3rem;
+    text-align: center;
+    padding-top: 0.6rem;
+}
+.all_profit p:last-child{
+	color:#101010;
+    text-align: center;
+    padding-bottom: 0.6rem;
+    padding-top: 0.1rem;
+}
+
+/*推广收益弹层*/
+.mask{
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    display: none;
+}
+.mask_tixian{
+	width: 80%;
+    height: auto;
+    padding: 0.5rem 5%;
+    z-index: 9999;
+    position: fixed;
+    top: 30%;
+    background-color: #fff;
+    left: 10%;
+    border-radius: 0.2rem;
+    color:#000;
+    display: none;
+}
+.mask_tixian p{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.mask_tixian p:last-child{
+	margin-top:0.1rem;
+}
+.mask_tixian input{
+    width: 85%;
+    height: 0.8rem;
+    background-color: #f2f2f2;
+    outline: none;
+    border: 0;
+    padding-left: 0.2rem;
+    border-radius: 0.5rem;
+    margin-left: 6%;
+}
+.mask_tixian .mask_btn {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+}
+.mask_tixian .mask_btn span {
+    width: 22%;
+    height: 100%;
+    display: inline-block;
+    border: 0.02rem solid #251a7f;
+    margin: 0 13%;
+    line-height: 0.8rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: #251a7f;
+}
+.mask_tixian .mask_btn span:last-child {
+    background-color: #251a7f;
+    color: #fff;
+}
+/*list*/
+
+/*.shouyi{*/
+    /*padding:0.3rem;*/
+/*}*/
+.shouyi_item,.teleMsg_itemTwo{
+    -webkit-box-shadow: 0 0.186667rem 0.373333rem -0.266667rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.186667rem 0.373333rem -0.266667rem rgba(0, 0, 0, 0.5);
+    padding: 0.3rem;
+    margin-bottom:0.2rem;
+}
+.teleMsg_itemTwo{
+    border-radius: 0 0.4rem 0.4rem 0.4rem;
+}
+.shouyi_item p:first-child,.teleMsg_itemTwo p:first-child{
+    height: auto;
+    font-weight: 400;
+    color: #222222;
+}
+.shouyi_item p:last-child,.teleMsg_itemTwo p:last-child{
+    height: auto;
+    margin-top: 0.1rem;
+    font-size:0.24rem;
+    font-weight: 400;
+    color: #222222;
+    text-align: right;
+}
+
+.time{
+    height: auto;
+    margin-top: 0.1rem;
+    font-size:0.24rem;
+    font-weight: 400;
+    color: #222222;
+    text-align: right;
+}
+
+/*列表*/
+.teleMsg{
+    padding:0.3rem;
+}
+.teleMsg_item{
+    background: rgba(83, 197, 255, 1);
+    -webkit-box-shadow: 0 0.186667rem 0.373333rem -0.266667rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.186667rem 0.373333rem -0.266667rem rgba(0, 0, 0, 0.5);
+    border-radius: 0.4rem 0 0.4rem 0.4rem;
+    padding: 0.3rem;
+    margin-bottom:0.2rem;
+}
+.teleMsg_itemTwo{
+    border-radius: 0 0.4rem 0.4rem 0.4rem;
+}
+.teleMsg_item p:first-child,.teleMsg_itemTwo p:first-child{
+    height: auto;
+    font-weight: 400;
+    color: #222222;
+}
+.teleMsg_item p:last-child,.teleMsg_itemTwo p:last-child{
+    height: auto;
+    margin-top: 0.1rem;
+    font-size:0.24rem;
+    font-weight: 400;
+    color: #222222;
+    text-align: right;
+}
+
+.noData{
+    width:96%;
+    margin: auto;
+    padding: 0.6rem 0;
+}
+
+.noData h4{
+    font-size:0.3rem;
+    color:#666;
+}
+.noData .contract{
+    width: 82%;
+    overflow: hidden;
+    margin-top: -2rem;
+}
+.noData .contract .worth-left{
+
+    float:left;
+    overflow: hidden;
+
+}
+.noData .contract .worth-left .letl{
+    float:left;
+}
+.noData .contract .worth-left .rightr{
+    float:left;
+    margin-left: 0.2rem;
+}
+.noData .contract .worth-left .rightr h3{
+    font-size:0.3rem;
+    color:#333;
+}
+.noData .contract .worth-left .rightr h5{
+    font-size:0.3rem;
+    color:#333;
+    margin-top: 0.4rem;
+}
+.noData .contract .worth-right{
+
+    float:right;
+}
+.noData .contract .worth-right .sub{
+    overflow: hidden;
+}
+.noData .contract .worth-right h3{
+    width:2.5rem;
+    font-size:0.3rem;
+    color:#fff;
+    background: #66cc99;
+    padding: 0.1rem 0;
+    text-align: center;
+    float:right;
+    border-radius: 0.1rem;
+}
+.noData .contract .worth-right h5{
+    font-size:0.3rem;
+    color:#333;
+    text-align: right;
+    margin-top: 0.2rem;
+    margin-right: 14%;
+}
+.noData .bottom{
+    width:100%;
+    margin: auto;
+    margin-top: 0.4rem;
+    overflow: hidden;
+}
+.noData .bottom .bottom-left{
+    float:left;
+}
+.noData .bottom .bottom-left h4{
+    font-size:0.3rem;
+    color:#333;
+    margin-top: 0.1rem;
+}
+.noData .bottom .bottom-right{
+    float:right;
+}
+.noData .bottom .bottom-right h4{
+    color:#fff;
+    width:2rem;
+    padding: 0.1rem 0;
+    background: #52AEEF;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-top: 0.9rem;
+}
+.noData .bottom-b{
+    margin-top: 0.2rem;
+}
+.noData .bottom-b h4{
+    font-size:0.3rem;
+    color:#999;
+}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+

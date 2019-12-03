@@ -1,0 +1,444 @@
+.buy-send-cate {
+    color: #999;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.buy-send-cate span:first-child {
+    float: left;
+}
+
+.buy-send-cate span:last-child {
+    float: right;
+}
+
+.buy-send-cate span a {
+    border: 1px solid #999;
+    padding: 3px 8px;
+    color: #999;
+
+}
+
+.buy-send-cate span a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.buy-send-cate span a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.buy-send-cate span:last-child a.active {
+    background: #03a9f4;
+    color: #fff;
+    border-color: #03a9f4;
+}
+
+.buy-send-content {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.enter-input {
+    border: 1px solid #999;
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.tit {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+.enter-input div {
+    box-sizing: content-box;
+    padding-left: 52px;
+    padding-right: 5px;
+}
+
+.enter-input div input {
+    float: right;
+    text-align: right;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.enter-input div span {
+    float: right;
+    margin-left: 5px;
+}
+
+.enter-input div span b {
+    color: #ee3b3b;
+    font-weight: normal;
+}
+
+.bsinfo {
+    margin-bottom: 10px;
+
+}
+
+.bsinfo b {
+    color: #ee3b3b;
+    margin-right: 5px;
+}
+
+.jypass {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+
+.jypass span {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.jypass div {
+    box-sizing: content-box;
+    padding-left: 70px;
+}
+
+.jypass div input {
+    width: 80%;
+    background: #000;
+    outline: none;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 5px;
+}
+
+.bsbtn span {
+    width: 50%;
+    float: left;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.bsbtn span a {
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.bsbtn span:first-child a {
+    background: #ee3b3b;
+}
+
+.bsbtn span:last-child a {
+    background: #696969;
+}
+
+.buy-send-qiehuan {
+    overflow: hidden;
+    clear: both;
+}
+
+.buy-send-qiehuan a {
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #999;
+    background: #000;
+    border-bottom: 2px solid #000;
+
+}
+
+.bscontent {
+    font-size: 12px;
+}
+
+.buy-send-qiehuan a:first-child {
+    border-right: 2px solid #5b5c5d;
+    margin-left: -2px;
+}
+
+.buy-send-qiehuan a.cur {
+    color: #05a1e8;
+    border-bottom: 2px solid #05a1e8;
+}
+
+.buysend-list {
+    overflow: hidden;
+}
+
+.buysend-list li {
+    padding: 10px 5px;
+    border-bottom: 1px dashed #3c3e47;
+    overflow: hidden;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.buysend-list li:nth-child(2n) {
+    background: #2f323d;
+}
+
+.buysend-list li:nth-child(2n+1) {
+    background: #2f323d;
+}
+
+.buysend-list li p {
+    float: left;
+    margin: 0px;
+}
+
+.buysend-list li p:first-child {
+    width: 40%;
+}
+
+.buysend-list li p:nth-child(2) {
+    width: 40%;
+}
+
+.buysend-list li p:last-child {
+    width: 20%;
+}
+
+.buysend-list li p b {
+    color: #1eae58;
+}
+
+.buysend-list li p:nth-child(2) span {
+    background: #1eae58;
+    color: #fff;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.gobuy {
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    background: #dd191b;
+    color: #fff;
+    border-radius: 17px;
+    display: block;
+}
+
+.gosend {
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    background: #1eae58;
+    color: #fff;
+    border-radius: 17px;
+    display: block;
+}
+
+/*红包*/
+
+.chai {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.chai-success {
+    position: relative;
+    width: 100%;
+    display: none;
+}
+
+.chai-success img {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.chai-success span {
+    position: absolute;
+    top: 45px;
+    color: #f32f2f;
+    font-size: 35px;
+    left: 50%;
+}
+
+.chai-success span b {
+    font-size: 26px;
+}
+
+.chai-success a {
+    height: 40px;
+    line-height: 40px;
+    color: #ac5318;
+    background: #e7b22b;
+    width: 200px;
+    text-align: center;
+    margin: 10px auto 0px auto;
+    display: block;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 1px 5px 1PX rgb(117, 95, 28);
+}
+
+.chai-success a:hover {
+    color: #ac5318;
+}
+
+/**/
+.buy-content {
+    position: absolute;
+    height: 200px;
+    top: 50%;
+    margin-top: -100px;
+    width: 90%;
+    left: 5%;
+    background: #333;
+    z-index: 3000;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ac9898;
+}
+
+.jiaoyi-pass {
+    margin: 0 0px 10px 0px;
+    padding: 5px 0px;
+    line-height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.jiaoyi-pass div {
+    box-sizing: content-box;
+    padding-left: 10px;
+    padding-right: 120px;
+}
+
+.jiaoyi-pass div input {
+    width: 100%;
+    float: left;
+    background: none;
+    outline: none;
+    text-indent: 15px;
+    color: #fff;
+    border: 1px solid #4e4b4b;
+    height:40px;
+    line-height:40px;
+}
+
+.code {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.jiaoyi-code {
+    margin-left: 20px;
+    box-sizing: content-box;
+    margin-right: 120px;
+    padding: 5px 0px 5px 0px;
+    line-height: 30px;
+    background: #2c2d41;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.jiaoyi-code span:first-child {
+    width: 40%;
+    float: left;
+    text-indent: 13px;
+    color: #fff;
+    display: inline-block;
+    border-right: 1px solid #36374c;
+}
+
+.jiaoyi-code input {
+    width: 58%;
+    float: left;
+    background: none;
+    outline: none;
+    border: none;
+    text-align: center;
+
+}
+
+.btns-oper {
+    margin: 25px 0px 0 0px;
+}
+
+.btns-oper a {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border: 1px solid #f6d56a;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-canel {
+    float: left;
+    color: #333;
+    border-radius: 5px;
+    background: #f6d56a;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.btn-sure {
+    float: left;
+    color: #333;
+    border-radius: 5px;
+    background: #f6d56a;
+    width: 100%;
+}
+
+.cover-bg {
+    background-color: #666;
+    filter: alpha(opacity=55);
+    height: 100%;
+    left: 0;
+    -moz-opacity: .55;
+    opacity: .55;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#codeMes {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 100px;
+    text-align: center;
+    color: #e7b42e;
+    border: none;
+    background: #666;
+    height:34px;
+    line-height:34px;
+}
+
+.regtop {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #4e4b4b;
+    margin: 0 10px 20px 0px;
+}
+
+.regtop span:first-child {
+    float: left;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.regtop span:last-child {
+    float: right;
+    margin-right: 10px;
+    color: #fff;
+    font-size:25px;
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>EOS</title>
+    <link rel="stylesheet" type="text/css" href="./Public/css/m_base.css"/>
+    <link rel="stylesheet" type="text/css" href="./Public/css/swiper-3.4.2.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./Public/css/m_index.css"/>
+    <link rel="stylesheet" type="text/css" href="./Public/css/icon.css"/>
+</head>
+<script type="text/javascript" src="./Public/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="./Public/js/layer/layer.js"></script>
+
+<body id="body" style="font-size: 0.28rem">
+<header>
+    <div class="header_right">GLOBAL STOCK DIVIDEND GAME</div>
+        <div class="header_left">
+            <img style="width: 100%"src="./img/guoqi.png">
+        </div>
+</header>
+<div class="m_layout">
+    <div class="banner">
+        <div id="focus" class="focus">
+            <div class="hd">
+                <ul></ul>
+            </div>
+            <div class="bd">
+                <ul>
+                    <li><a href="javascript:void(0);"><img _src="./img/eos1.jpg" src="./img/eos1.jpg"/></a></li>
+                    <li><a href="javascript:void(0);"><img _src="./img/eos0.jpg" src="./img/eos0.jpg"/></a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="./Public/js/TouchSlide.1.1.js"></script>
+        <script type="text/javascript">
+            TouchSlide({
+                slideCell: "#focus",
+                titCell: ".hd ul", 
+                mainCell: ".bd ul",
+                effect: "left",
+                autoPlay: true,
+                autoPage: true, 
+                interTime: 2000, 
+                switchLoad: "_src" 
+            });
+        </script>
+    </div>
+
+    <div class="index-shouyi">
+        <div class="index-shouyi-left">
+            <div class="rr1" style="margin-top:8px;">
+                <div>PERFORMANCE</div>
+                <div>0.00 Eos</div>
+            </div>
+            <div class="rr1">
+                <div>Government</div>
+                <div>0.00 Eos</div>
+            </div>
+        </div>
+        <div class="index-shouyi-right" id="copy-link">
+            <img src="./img/qrcode.jpg" id="qrcode"/>
+            <button id="copy1" data-clipboard-text="{$_SERVER['HTTP_HOST']}/index.php?register=ceshiceshice">
+               COPY LINK
+            </button>
+        </div>
+        <div class="shouyi-info">
+            <ul>
+                <li>
+                    <p>Dividend</p>
+                    <p id="fenhongleiji">0.00&nbsp;Eos</p>
+                </li>
+                <li>
+                    <p>Bonus</p>
+                    <p  id="jiangjinleiji">0.00&nbsp;Eos</p>
+                </li>
+                <li>
+                    <p>shop</p>
+                    <p>0.00&nbsp;Eos</p>
+                </li>
+                <li>
+                    <p>balance</p>
+                    <p id="balance">0&nbsp;Eos</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="copy-tz">
+        <div class="tz">
+            <div>
+                <input id="inputValue" onkeyup="value=value.replace(/[^\d]/g,'')" placeholder="PLEASE ENTER A VALUE"/>
+            </div>
+
+            <a href="javascript:void(0)" id="btn-tz">INVESTED FUNDS</a>
+        </div>
+        <div class="copy">
+            <div>
+                MY ACCOUNT：
+            </div>
+            <button id="copy2" data-clipboard-text="">
+               COPY
+            </button>
+        </div>
+    </div>
+    <div class="daojishi">
+        <p>Remaining from the one-click re-investment:</p>
+        <div id="timeDown">
+            <span id="day">0</span>
+            <i>Day：</i>&nbsp;<span id="hours">0</span><i>h：</i>&nbsp;<span id="minutes">0</span><i>min：</i>&nbsp;<span id="second">0</span><i>s</i>
+        </div>
+    </div>
+    <div class="tongji">
+        <ul>
+            <li>
+              <p>Total number of shares</p>
+                <p>0</p>
+            </li>
+            <li>
+                <p>level</p>
+                <p>0</p>
+            </li>
+            <li>
+                <p>DIRECT PUSH</p>
+                <p>0</p>
+            </li>
+            <li>
+                <p>Contract Round</p>
+                <p>0</p>
+            </li>
+        </ul>
+    </div>
+    <div class="index-gupiao">
+        <div class="gupiao">
+            <div class="gupiao-row1">
+                <span>WITHDRAWAL</span>
+                <span>at least 5Eos</span>
+            </div>
+            <div class="gupiao-row2">
+                <img src="./img/gupiao-icon.png" alt=""/>
+                <span>0.00 Eos</span>
+            </div>
+            <a class="btn-tixian" href="#">
+                Withdrawal
+            </a>
+            <a class="btn-tixian" href="#">
+                Benefit
+            </a>
+        </div>
+        <div class="gupiao">
+            <div class="gupiao-row1">
+                <span>CASH-OUT</span>
+                <span>at least 1 Eos</span>
+            </div>
+            <div class="gupiao-row2">
+                <img src="./Public/images/gupiao-icon.png" alt=""/>
+                <span>0 Eos</span>
+            </div>
+			<a class="btn-kt" href="#" style="background-color: #b8b8b8;color:#666!important">
+				 CASH-OUT
+			</a>
+        </div>
+    </div>
+    <div class="index-foot">
+        <a href="javascript:void(0);">EE5 Token</a>
+        <a href="javascript:void(0);">Rules of the game</a>
+        <a href="javascript:void(0);">Smart contract</a>
+    </div>
+</div>
+<script type="text/javascript" src="./Public/js/swiper-3.4.2.min.js"></script>
+<script type="text/javascript" src="./Public/js/adaptive.js"></script>
+<script src="./Public/js/clipboard.min.js"></script>
+<script src="./Public/js/clipboard.js-master/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="./Public/js/scatter/scatter-core.js"></script>
+<script type="text/javascript" src="./Public/js/scatter/scatter-plugin.js"></script>
+<script type="text/javascript" src="./Public/js/eos/eos.js"></script>
+<script>
+    var network = {
+        blockchain: 'eos',
+        protocol: 'https',
+        host: 'mainnet.meet.one',
+        port: 443,
+        chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
+    };
+    $(document).ready(function () {
+        ScatterJS.plugins(new ScatterEOS());
+        ScatterJS.scatter.connect('EOS').then(function (connected) {
+            if (!connected) {
+                return false;
+            }
+            var requiredFields = {accounts: [network]};
+            var scatter = ScatterJS.scatter;
+            scatter.getIdentity(requiredFields).then(function (accounts) {
+                console.log("accounts:", accounts)
+                var account = accounts.accounts.find(function (x) {
+                    return x.blockchain === 'eos'
+                });
+                var eosOptions = {expireInSeconds: 60};
+                var eos = scatter.eos(network, Eos, eosOptions);
+                if (account == '') {
+                   layer.msg("login first")
+                }
+            }).catch(function (error) {
+                console.error(error);
+                layer.msg("error")
+            });
+        }).catch(function (error) {
+            console.error(error);
+        });
+    });
+
+</script>
+<script type="text/javascript">
+    /*submit*/
+    $("#btn-tz").click(function () {
+        var inputValue = $("#inputValue").val();
+        if (inputValue == '' || inputValue == 0) {
+            layer.msg("PLEASE ENTER THE INVESTMENT AMOUNT");
+            return false;
+        }
+    })
+</script>
+<script>
+    var btns = document.querySelectorAll('button');
+    var clipboard = new ClipboardJS(btns);
+    clipboard.on('success', function (e) {
+        layer.msg("COPY SUCCESSFULLY")
+    });
+    clipboard.on('error', function (e) {
+        layer.msg("COPY FAILED")
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var endTime = new Date()/1000 + 854000;
+        TimeDown(endTime)
+    })
+    function TimeDown(endDateStr) {
+        var endDate = endDateStr;
+        var nowDate = new Date()/1000;
+        var totalSeconds = endDate - nowDate;
+        var days = Math.floor(totalSeconds / (60 * 60 * 24));
+        var modulo = totalSeconds % (60 * 60 * 24);
+        var hours = Math.floor(modulo / (60 * 60));
+        modulo = modulo % (60 * 60);
+        var minutes = Math.floor(modulo / 60);
+        var seconds = parseInt(modulo % 60);
+        if(totalSeconds>=0){
+            $("#day").text(days);
+            $("#hours").text(hours);
+            $("#minutes").text(minutes);
+            $("#second").text(seconds);
+        }else{
+            $("#day").text(0);
+            $("#hours").text(0);
+            $("#second").text(0);
+        }
+        setTimeout(function () {
+            TimeDown(endDateStr);
+        }, 1000)
+    }
+</script>
+</body>
+</html>

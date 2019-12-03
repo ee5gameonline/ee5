@@ -1,0 +1,49 @@
+	* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		.wabao,.etc {
+			max-width: 640px;
+			min-width: 320px;
+			margin: 0 auto;
+		}
+		.wabao li{
+			position: relative;
+			overflow:hidden;
+			border-bottom:1px solid #ededed;
+			padding:10px 0px;
+		}
+		.wabao li img{
+			position: absolute;
+			top:10px;
+			left:10px;
+			width:40px;
+			height:40px;
+		}
+			.wabao-center{
+				box-sizing: content-box;
+				padding-left:60px;
+				padding-right:80px;
+			}
+			.warow1{
+				font-size:14px;
+				color:#333;
+			}
+			.warow2{
+				font-size:13px;
+				color:#999;
+			}
+			.wabao-right{
+				position:absolute;
+				right:10px;
+				top:10px;
+				text-align: right;
+			}
+			.wbc4d5b{color:#bc4d5b;margin-right:10px;}
+			.wc333{color:#333;}
+			.w72acba{color:#72acba;margin-right:10px;}
+			.etc li{line-height:60px;border-bottom:1px solid #ededed; list-style: none;width:100%;overflow:hidden;border-radius: 15px;background-color: #4d504c; margin-top: 10px;}
+			.etc li span:first-child{float: left;margin-left:10px;font-size:16px;font-weight: bold;color:#333;width:100px;}
+			.etc-money{float: left;font-size:16px;font-weight: bold;color:#be292f;}
+			.etc li a{float:right;display: inline-block;color:#fff;background:#333;height:26px;line-height: 26px;padding:0 10px;border-radius:5px;margin:17px 10px 0px 0px;}

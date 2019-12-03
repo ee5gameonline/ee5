@@ -1,0 +1,39 @@
+.tophead{ padding:30px; text-align:center; color:#aaa; font-size:24px;}
+body {background-image: url("https://cdn1.fateg.top/f.png")}
+.main{ padding: 20px 10px;}
+.main .item{ background:#343434; border-bottom:1px solid #000; border-left:1px solid #000; border-right:1px solid #000;}
+.main .item{ padding-left:30px; position:relative;}
+.main .item input{background:#343434;color:#999;}
+.main .item .glyphicon{ position:absolute; left:10px; top:12px; color:#aaa;}
+.main .item:first-child,.main .item:first-child input{ border-radius:10px 10px 0 0;}
+.main .item:last-child,.main .item:last-child input{ border-radius:0 0 10px 10px;}
+.main .item:first-child{ border-top:1px solid #000;}
+.main .item:last-child{ border-bottom:1px solid #000;}
+.main .item input{ width:100%; height:40px; line-height:40px; padding:5px 10px; border: none;}
+
+.btns{ padding:10px;}
+.btns input{ width:100%; height:40px; line-height:40px; color:#fff; background:#f1c40f; border:none; border-radius:10px;}
+.more{ padding:5px 10px; line-height:30px;}
+
+.code-box{ position:relative;}
+.code-box .send_btn{ position:absolute; top:0;  right:0px; line-height:40px; padding:0 20px;}
+.main .code-box input{ padding-right:100px;}
+
+
+.chinese-english{
+    height:40px;
+    line-height:40px;
+    width:225px;
+    margin:20px auto 20px auto;
+
+}
+.chinese-english a{width:70px;
+    text-align: center;float: left;
+    display: inline-block;
+    color:#fff;}
+.chinese-english a:first-child{ background:#5c8699;}
+
+.chinese-english a:nth-child(2){ background:#524747;}
+.chinese-english a:last-child{background:#526066;}
+
+

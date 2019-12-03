@@ -1,0 +1,189 @@
+#content1 {
+	background: url(../images/f1.jpg);
+	background-size: 100% 100%;
+}
+
+#content2 {
+	background: url(../images/f14.jpg);
+	background-size: 100% 100%;
+}
+
+#content3 {
+	background: url(../images/t7.jpg);
+	background-size: 100% 100%;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+#content4 {
+	background: url(../images/f15.jpg);
+	background-size: 100% 100%;
+}
+
+#content5 {
+	background: url(../images/f19.jpg);
+	background-size: 100% 100%;
+}
+
+#content6 {
+	background: url(../images/f23.jpg);
+	background-size: 100% 100%;
+}
+
+#content7 {
+	background: url(../images/f25.jpg);
+	background-size: 100% 100%;
+}
+
+#content8 {
+	background: url(../images/f31.jpg);
+	background-size: 100% 100%;
+}
+
+#content9 {
+	background: url(../images/f34.jpg);
+	background-size: 100% 100%;
+}
+
+.f2 {
+	position: absolute;
+	left: 60px;
+}
+
+.f5 {
+	position: absolute;
+	left: 120px;
+	border-left: 1px solid #fff;
+	padding-left: 10px;
+}
+
+.f6 {
+	float: left;
+	height: 32px;
+}
+
+.fl {
+	float: left;
+}
+
+.content1-bottom {
+	position: absolute;
+	bottom: 100px;
+}
+
+.f8 {
+	position: absolute;
+	top: 10px;
+}
+
+.f9 {
+	position: absolute;
+	left: 40px;
+	top: 200px;
+}
+
+.f11 {
+	position: absolute;
+	left: 90px;
+	border-left: 1px solid #fff;
+	padding-left: 10px;
+	top: 200px;
+}
+
+.f12 {
+	position: absolute;
+	left: 150px;
+	border-left: 1px solid #fff;
+	padding-left: 10px;
+	top: 200px;
+}
+
+.f13 {
+	position: absolute;
+	left: 210px;
+	border-left: 1px solid #fff;
+	padding-left: 10px;
+	top: 215px;
+}
+
+.f16 {
+	position: absolute;
+	left: 0px;
+}
+
+.f17 {
+	position: absolute;
+	right: 30px;
+}
+
+.f18 {
+	position: absolute;
+	right: 80px;
+}
+
+.f20 {
+	position: absolute;
+	left: 30px;
+}
+
+.f21 {
+	position: absolute;
+	left: 80px;
+}
+
+.f22 {
+	position: absolute;
+	left: 130px;
+}
+
+.f31 {
+	position: absolute;
+	left: 30px;
+	top: 190px;
+	border-right: 1px solid #fff;
+}
+
+.f32 {
+	position: absolute;
+	left: 80px;
+	top: 225px;
+}
+
+.f33 {
+	position: absolute;
+	left: 130px;
+	top: 190px;
+	border-left: 1px solid #fff;
+}
+
+.f36 {
+	position: absolute;
+	right: 20%;
+}
+
+.f35 {
+	position: absolute;
+	left: 15%;
+}
+
+.f37 {
+	position: absolute;
+	top: 50%;
+	right: 20%;
+	margin-top: -225px;
+}
+
+.f38 {
+	position: absolute;
+	top: 50%;
+	right: 20%;
+	margin-top: -15px;
+}
+
+#content11 {
+	background: url(../images/f40.jpg);
+	background-size: 100% 100%;
+}

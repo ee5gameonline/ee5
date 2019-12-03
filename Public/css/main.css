@@ -1,0 +1,70 @@
+* { margin: 0; padding: 0;}
+.main-area { width: 100%; height: auto; }
+.h10 { height: 10px;}
+.f-bg { background: #fff;}
+li { list-style: none;}
+body{ background: #f5f5f5;}
+img {  vertical-align: middle; }
+a { color: #020202;}a:link { color: #020202; cursor:pointer;}
+
+.header-blank {height: 50px;}
+.header {height: 50px;line-height: 50px;font-size: 16px;background: #618432;color: #fff;text-align: center;box-shadow: 0px 2px 2px #999;position: fixed;top: 0;width: 100%;
+     left: 0;z-index: 999;border-radius: 0;}
+#swiper-container1 .swiper-slide {text-align: center;font-size: 18px;background: #fff;/* Center slide text vertically */display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;}
+#swiper-container1 .swiper-slide img {width: 100%;}
+/*Home nav-list*/
+.app-nav {background: #fff;padding-top: 10px;overflow: hidden;border-top: 1px solid #EEE;padding-bottom: 10px;}
+.app-nav .app-link {width: 20%;float: left;font-size: 10px;text-decoration: none;color: #333;text-align: center;display: block;border: 0;}
+.app-nav .app-link img {display: block;width: 50%;margin: 5px auto;border: 0;}
+/*Home news*/
+.news {background-color: #fff;height: 40px; overflow: hidden; }
+.news-cont {margin: 0px 10px;border-top: 1px solid #eee;}
+.news-til { width: 80px; line-height: 40px; float: left;}
+.news-til span {line-height: 30px;margin-top: 5px;padding-right: 10px;border-right: 1px solid #cc3333;float: left;display: inline;}
+.news-til span img {width: 35px;}.news-icon img { width: 20px; margin-left: 5px;}
+#swiper-container2 {height: 40px;overflow: hidden;line-height: 40px;}
+#swiper-container2 .swiper-slide {font-size: 14px;background: #fff;/* Center slide text vertically */width: 100%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+#swiper-container2 .swiper-slide span {border: 1px solid #e34100;padding: 0px 5px;border-radius: 5px;color: #e34100;line-height: 20px;margin: 0px 6px;font-size: 12px;margin-top: 9px;}
+
+/*功能区*/
+.bak { width: 50px; height: 50px; position: fixed; top:10px; left: 10px; background: rgba(0,0,0,0.5); text-align: center; color: #fff; line-height: 50px; border-radius: 50%;}
+.bak:link { color: #fff; font-size: 30px;}
+/*图片详情展示*/
+.goods_main {  background: #fff;}
+.goods_main img { width: 100%;}
+
+/*底部*/
+.footer-blank{ height:42px;}
+.footer{ z-index:999; height:42px; background:#444444; color:#fff; position:fixed; width:100%; bottom:0; left:0; box-shadow:0px -2px 2px #aaa;}
+.footer a{ color:inherit;}
+.footer ul{
+    list-style:none; padding:0; margin:0; line-height:42px; text-align:center;
+    display:-moz-box; /* Firefox */
+    display:-webkit-box; /* Safari and Chrome */
+    display:box;
+}
+.footer ul li{
+    line-height:20px;
+    font-size:10px;
+    -moz-box-flex:1.0; /* Firefox */
+    -webkit-box-flex:1.0; /* Safari 和 Chrome */
+    box-flex:1.0;
+}
+.footer ul li span{ display:block; font-size:14px; padding-top:5px;}
+/*热线*/
+.hot_line { text-align: center;}
+.hot_line p { line-height: 35px; text-align: center; background: #ababab; color: #fff; }
+.hot_line ul { margin: 20px auto 30px; display: block;}
+.hot_line  li { border:1px solid #ababab; width: 60%; line-height: 40px; margin: 0 auto 10px; border-radius: 5px; font-size: 16px; text-align: left; padding-left: 10px; }
+.hot_line  li i img { width: 25px; margin-right: 5px; }
+
+.pos_area { height: 20px;}
+.product_link { font-size: 12px; color: #999;  text-align: center; line-height: 40px; margin-top: 60px;}
+.product_link a {  color: #999;}
+.product_beian { font-size: 12px; color: #999;  text-align: center; line-height: 40px; margin-top: 60px;}
+.product_beian a {  color: #999;}
+
+.pay-layer { padding: 10px 20px;}
+.pay-layer-til { line-height: 30px; text-align: left;}
+.pay-layer-infor input { border:1px solid #eee; height: 40px; line-height:40px; width: 100%; text-align: center; border-radius: 5px;}
+.pay-layer-link { text-align: right; line-height: 30px; display:block;}

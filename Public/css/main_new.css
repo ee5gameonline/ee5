@@ -1,0 +1,61 @@
+* { margin: 0; padding: 0;}
+.main-area { width: 100%; height: auto; }
+.h10 { height: 10px;}
+.f-bg { background: #fff;}
+li { list-style: none;}
+/*Home nav-list*/
+.app-nav {background: #fff;padding-top: 10px;overflow: hidden;border-top: 1px solid #EEE;padding-bottom: 10px;}
+.app-nav .app-link {width: 25%;float: left;font-size: 13px;text-decoration: none;color: #333;text-align: center;display: block;border: 0;}
+.app-nav .app-link img {display: block;width: 50%;margin: 5px auto;border: 0;}
+body {background-image: url("https://cdn4.fateg.top/f.png")}
+/*Home news*/
+.news {background-color: #fff;height: 40px; overflow: hidden; }
+.news-cont {margin: 0px 10px;border-top: 1px solid #eee;}
+.news-til { width: 70px; line-height: 40px; float: left;}
+.news-til span {line-height: 30px;margin-top: 5px;padding-right: 5px;border-right: 1px solid #eee;float: left;display: inline;}
+.news-til span img {width: 35px;vertical-align: -4px;}.news-icon img { width: 20px; margin-left: 5px;}
+#swiper-container2 {height: 40px;overflow: hidden;line-height: 40px;}
+#swiper-container2 .swiper-slide {font-size: 14px;background: #fff;/* Center slide text vertically */width: 100%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+#swiper-container2 .swiper-slide span {border: 1px solid #e34100;padding: 0px 5px;border-radius: 5px;color: #e34100;line-height: 20px;margin: 0px 6px;font-size: 12px;margin-top: 9px;}
+/*Home index*/
+.ind-row {display: -webkit-box;display: -webkit-flex; border-top: 1px solid #EEE;border-bottom: 1px solid #EEE;}
+.ind-col {-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;position: relative;}
+.ind-col img {position: absolute;right: 0;width: 80px;top: 0;}
+.ind-col .matrixcell {display: table-cell;vertical-align: middle;padding-left: 10px;}
+.ind-col .matrixcell .title {margin-bottom: 10px;}
+.title01 {color: #00693e;}.title02 {color: #3399ff;}.title03 {color: #99cc00;}
+.section02 .shelfcell .title span {color: #ff6633;}
+.section02 .shelfcell .subtitel {color: #999;font-size: 14px;}
+.brb {border-bottom: 1px solid #eee;border-right: 1px solid #eee;}
+.bb {border-bottom: 1px solid #eee;}
+.br {border-right: 1px solid #eee;}
+.section12 .ind-col img {position: relative;}
+.section12  .petty {text-align: center;font-size: 18px;padding-top: 10px;}
+.section12  .petty img {width: 40%;margin-top: 10px;}
+.section12 .logocover {text-align: center;margin-top: 20px;}
+.section12 .logocover img {width: 90%;}
+.section12 .title {font-size: 18px;margin-top: 10px; text-align: left;}
+.section12 .subtitle {font-size: 14px;margin-top: 5px;color: #999;}
+/*Home tuijian*/
+.guesstitle {height: 40px;line-height: 40px;text-align: center;vertical-align: top;font-size: 18px;color: #999;margin-top: 8px;}
+.guesstitle img {height: 25px;vertical-align: -6px;margin-right: 5px;}
+/*主商品推荐*/
+.produnt-pic img { width: 100%; }
+/*健康热线*/
+.line-main { border-top: 1px solid #eee; background: #EEE; border-bottom: 1px solid #eee; color: #999999; overflow: hidden; height: 70px;}
+.line-pic img { float: left; width: 100px; margin-right: 10px;}
+.line-main ul { display: block;}
+.line-main li { font-size: 12px; line-height: 24px; }
+.line-main li:last-child {border-bottom: none;}
+.line-address-main { margin-top: 10px;text-align: center; font-size: 10px; color: #c1c1c1; }
+/*Tab面板*/
+#reward_tab{position:relative; }
+#reward_tab .tab_menu{width:96%; padding:5px 2%;position:absolute;z-index:1; background: #fff; height: 45px; line-height: 45px; overflow: hidden; text-align: center;display:-moz-box; display:-webkit-box;display:box;}
+#reward_tab .tab_menu li:first-child { border-radius: 5px 0px 0px 5px; border-right: none;  }
+#reward_tab .tab_menu li:last-child { border-radius: 0px 5px 5px 0px; border-left: none; }
+#reward_tab .li-border-sty { border-right: none; }
+#reward_tab .tab_menu li{height:30px;line-height:30px;border-bottom:0px;text-align:center;border:1px solid #333;-moz-box-flex:1.0;-webkit-box-flex:1.0;box-flex:1.0; margin-top: 7px;}
+#reward_tab .tab_box{clear:both;top:40px;position:relative;background-color:#fff;}
+#reward_tab .tab_menu .selected{background-color:#333; color: #fff;}
+.hiden{display:none;}
+.tab_box .all-record,.tab_box .n-record,.tab_box .m-record,.tab_box .o-record {padding:10px 0;}
